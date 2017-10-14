@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.joseaguilar.logingoogle_android.MainActivity">
+
+
+    <ImageView
+        android:background="@color/colorPrimary"
+        android:id="@+id/ImagenCliente"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/NombreCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Cliente"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/CorreoCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Correo del cliente"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Identificador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:hint="Identificador"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/BtnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:onClick="Logout"/>
+
+    <Button
+        android:id="@+id/BtnRevocar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REVOCAR"
+        android:onClick="Revocar"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginGoogle_Android</string>
+    <string name="Error_Login">No se pudo iniciar sesión</string>
+    <string name="Error_Revocado">Sus datos no fueron revocados</string>
+</resources>
